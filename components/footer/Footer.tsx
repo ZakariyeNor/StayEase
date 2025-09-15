@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       {/* Footer */}
       <footer className="bg-zinc-700 mt-3 p-4 text-accentText w-full">
-        <div className="flex flex-col flex-wrap sm:flex-row p-9 w-full justify-around">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 p-9 w-full">
           <div >
             <h2>StayEase</h2>
             <p className="text-gray-400 text-sm">Your trusted partnerin <br />finding the perfect stay</p>

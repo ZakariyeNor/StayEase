@@ -8,7 +8,7 @@ HotelFinder is a modern hotel search and booking frontend built with **Next.js**
 
 ## 🖼 Project Preview
 
-![Hero Section](/stay_ease.jpg)  
+![Hero Section](/documents/stay_ease.jpg)  
 *Hero section with hotel banner and title.*
 
 ---

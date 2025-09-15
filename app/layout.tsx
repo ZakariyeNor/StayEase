@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Barlow, Open_Sans } from "next/font/google";
+import { Bebas_Neue, Barlow, Open_Sans } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/navigation/Navbar";
 
-const playfairDisplay = Playfair_Display({ weight: ["400"], subsets: ["latin"] });
+const bebasNeue = Bebas_Neue({ weight: ["400"], subsets: ["latin"] });
 const barlow = Barlow({ weight: ["400"], subsets: ["latin"] });
 const openSans = Open_Sans({ weight: ["400"], subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={openSans.className}>
+        <Navbar />
         {children}
       </body>
     </html>

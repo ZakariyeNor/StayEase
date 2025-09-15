@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Playfair Display", "serif"],
+        heading: ["Bebas Nueu", "serif"],
         body: ["Open Sans", "sans-serif"],
         accent: ["Barlow", "sans-serif"],
       },
